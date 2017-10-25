@@ -171,10 +171,10 @@ epicsAtomicTest_SRCS += epicsAtomicTest.cpp
 testHarness_SRCS += epicsAtomicTest.cpp
 TESTS += epicsAtomicTest
 
-TESTPROD_HOST += epicsExceptionTest
-epicsExceptionTest_SRCS += epicsExceptionTest.cpp
-testHarness_SRCS += epicsExceptionTest.cpp
-TESTS += epicsExceptionTest
+#TESTPROD_HOST += epicsExceptionTest
+#epicsExceptionTest_SRCS += epicsExceptionTest.cpp
+#testHarness_SRCS += epicsExceptionTest.cpp
+#TESTS += epicsExceptionTest
 
 TESTPROD_HOST += macDefExpandTest
 macDefExpandTest_SRCS += macDefExpandTest.c
